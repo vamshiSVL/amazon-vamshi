@@ -1,0 +1,115 @@
+body{
+    height: 1000px;
+}
+
+.header{
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 60px;
+    margin: 0;
+}
+
+.logo{
+    width: 150px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-right: 30px
+}
+
+.last-1{
+    width: 180px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.inp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.inp-but{
+    height: 35px;
+    flex: 0.8;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: medium;
+    padding-left: 15px;
+}
+
+.logo-img{
+    height: 35px;
+}
+
+.cart-img{
+    width: 50px;
+    background-color: black;
+    position: relative
+}
+
+.cart-but{
+    background-color: black;
+    border: none;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.cart-but:hover{
+    border: 1px solid white;
+}
+
+.txt-but{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 80px;
+    font-size: medium;
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.txt-but:hover{
+    border: 1px solid white;
+    padding: 0;
+}
+
+.search-img{
+    width: 30px;
+    height: 30px;
+}
+
+.search-but{
+    background-color: #FEBD69;
+    height: 39px;
+    border: 1px solid black;
+    margin-left: -1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-quantity{
+    position:absolute;
+    top: 17px;
+    right: 53px;
+    color: #FEBD69;
+}
